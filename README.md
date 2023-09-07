@@ -1,6 +1,6 @@
 ## Jak aplikacja działa
 
-Po wklejeniu tokena aplikacja będzie chodzić przez godzine dopóki token nie wygaśnie lub nie znajdzie się termin na egzamin w wyznaczonych preferencjach. Jeżeli aplikacji uda się zrobić rezerwacje wyświatli się o tym informacja w konsoli, następnie trzeba wejść w swój profil na info car i zapłacić za rezerwacje w ciągu około 40 minut inaczej zostanie ona odwołana.
+Po wklejeniu tokena aplikacja będzie chodzić przez godzine dopóki token nie wygaśnie lub nie znajdzie się termin na egzamin w wyznaczonych preferencjach. Jeżeli aplikacji uda się zrobić rezerwacje wyświatli się o tym informacja w konsoli, następnie trzeba wejść w swój profil na info car i zapłacić za rezerwacje w ciągu około 40 minut inaczej zostanie ona odwołana. Dostępne terminy są sprawdzane co 10 sekund.
 
 ## Instalacja
 
