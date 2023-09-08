@@ -13,7 +13,7 @@ Po wklejeniu tokena aplikacja będzie chodzić przez godzine dopóki token nie w
 ## Otrzymywanie bearer tokena
 
 1. Zaloguj się na `https://info-car.pl/`.
-2. Kliknij prawym przyciskiem myszy witrynę, kliknij opcję „Sprawdź element”, a następnie naciśnij kombinacje `Ctrl F` na klawiaturze.
+2. Kliknij prawym przyciskiem myszy witrynę, kliknij opcję „Sprawdź element”, wejdź w zakładkę network ( sieci ), a następnie naciśnij kombinacje `Ctrl F` na klawiaturze.
 3. W pasku wyszukiwania wyszukaj `Bearer`, następnie naciśnij Enter, skopiuj zaznaczony na żółto element i wklej go w aplikacji.
 4. Aby otrzymać nowy token po 1 godzinie ( gdy token wygaśnie ) odśwież stronę infocar ( upewnij się, że nadal jesteś zalogowany ), kliknij pasek wyszukiwania z wpisanym `Bearer` w środku i naciśnij Enter, a następnie skopiuj nowy token.
 
