@@ -16,7 +16,7 @@ export const takeReservation = async (practiceId, token) => {
                         pkk: process.env.PKK_NUMBER
                     },
                     exam: {
-                        "organizationUnitId": "43",
+                        "organizationUnitId": process.env.WORDID,
                         "practiceId": practiceId,
                         "theoryId": null
                     },

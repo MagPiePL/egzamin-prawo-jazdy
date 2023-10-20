@@ -6,7 +6,7 @@ Po wklejeniu tokena aplikacja będzie chodzić przez godzine dopóki token nie w
 
 1. Pobierz cały folder z repozytorium.
 2. Pobierz rekomendowany instalator node js z tego linku `https://nodejs.org/en`, a następnie przejdź instalacje.
-3. Utwórz plik .env i wypełnij jak pokazano w pliku .env.example.
+3. Utwórz plik .env i wypełnij jak pokazano w pliku .env.example. (WORDID można znaleźć w pliku words.json według preferencji)
 4. Uruchom plik build.bat, a następnie start.bat ( Przy każdym następnym odpaleniu aplikacji tylko start.bat ).
 5. Ze strony `https://info-car.pl/` będąc zalogowanym, skopiuj bearer token i wklej w aplikacji (Proces uzyskania bearer tokena wyjaśniono poniżej).
 

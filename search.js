@@ -47,7 +47,7 @@ const startSearching = async () => {
                 method: "PUT",
                 body: JSON.stringify({
                     category: "B",
-                    wordId: "43"
+                    wordId: process.env.WORDID
                 }),
                 headers: {
                     "Content-Type": "application/json",
