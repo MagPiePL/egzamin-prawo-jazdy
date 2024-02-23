@@ -1,4 +1,3 @@
-# getToken.py
 import os
 from selenium.webdriver.common.by import By
 from dotenv import load_dotenv
@@ -16,11 +15,12 @@ def login(driver):
     driver.find_element(By.ID, "register-button").click()
 
 def main():
-    project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    project_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     chromedriver_path = os.path.join(project_dir, "utils", "chromedriver.exe")
 
     url = "https://info-car.pl/oauth2/login"
     options = webdriver.ChromeOptions()
+    options.add_argument('--silent')
     options.add_argument('--headless')
     options.add_argument('--log-level=3')
     options.page_load_strategy = 'normal'
