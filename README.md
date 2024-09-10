@@ -37,4 +37,4 @@ Zmienne env, które muszą zostać wypełnione dla poprawnego działania aplikac
 
 - `DATE_TO` - data wyznaczająca końcowy zakres szukania rezerwacji
   
-- `PREFERRED_HOURS` - preferowane godziny egzaminu których aplikacja będzie szukać
+- `PREFERRED_HOURS` - preferowane godziny egzaminu których aplikacja będzie szukać (od lewej do prawej)
