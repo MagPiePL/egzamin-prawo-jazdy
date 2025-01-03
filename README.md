@@ -7,9 +7,11 @@ Po uruchomieniu aplikacji będzie ona szukała rezerwacji według twoich prefere
 1. Pobierz cały folder z repozytorium.
 2. Pobierz rekomendowany instalator node js z tego linku `https://nodejs.org/en`, a następnie przejdź instalacje.
 3. Pobierz najnowszą wersją python z tego linku `https://www.python.org/downloads/`, a następnie przejdź instalacje.
-4. Pobierz przeglądarke Google Chrome, potrzebna jest do poprawnego działania aplikacji.
+4. Pobierz przeglądarke Google Chrome, potrzebna jest do poprawnego działania aplikacji. ( W razie potrzeby zakutalizuj )
 5. Utwórz plik .env i wypełnij jak pokazano w pliku .env.example. (WORDID można znaleźć w pliku words.json w folderze data według preferencji)
 6. Uruchom plik build.bat, a następnie start.bat ( Przy każdym następnym odpaleniu aplikacji tylko start.bat ).
+
+WAŻNE! - plik `utils/chromedriver.exe` ważny do prawidłowego działania programu musi obsługiwać twoją aktualną wersję przeglądarki Google Chrome. Najnowszy driver możesz pobrać tutaj `https://googlechromelabs.github.io/chrome-for-testing/`. Plik ostatni raz był aktualizowany 10.09.2024 r.
 
 ## Zmienne env
 
