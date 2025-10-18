@@ -1,3 +1,7 @@
+## WAŻNE
+
+Ostatnia aktualizacja aplikacji była `11.09.2024 r.` i od jakiegoś czasu już nie działa, ponieważ na stronie info-car zaszło wiele zmian. Zatem repozytorium na ten moment może jedynie służyć jako podstawa do stworzenia działającej aplikacji dostosowanej pod wspomniane zmiany.
+
 ## Jak aplikacja działa
 
 Po uruchomieniu aplikacji będzie ona szukała rezerwacji według twoich preferencji ustawionych w pliku .env do momentu jej znalezienia. Jeżeli aplikacji uda się zrobić rezerwacje wyświatli się o tym informacja w konsoli, następnie trzeba wejść w swój profil na info car i zapłacić za rezerwacje w ciągu około 40 minut inaczej zostanie ona odwołana. Dostępne terminy są sprawdzane co 5 sekund.
